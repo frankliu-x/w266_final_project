@@ -1,0 +1,69 @@
+nohup: ignoring input
+[I 06:28:26.079 NotebookApp] Using EnvironmentKernelSpecManager...
+[I 06:28:26.079 NotebookApp] Started periodic updates of the kernel list (every 3 minutes).
+[I 06:28:26.419 NotebookApp] Loading IPython parallel extension
+[I 06:28:26.572 NotebookApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/envs/pytorch_latest_p36/lib/python3.6/site-packages/jupyterlab
+[I 06:28:26.572 NotebookApp] JupyterLab application directory is /home/ubuntu/anaconda3/envs/pytorch_latest_p36/share/jupyter/lab
+[I 06:28:26.804 NotebookApp] [nb_conda] enabled
+[I 06:28:26.804 NotebookApp] Serving notebooks from local directory: /home/ubuntu/w266_final_project
+[I 06:28:26.804 NotebookApp] The Jupyter Notebook is running at:
+[I 06:28:26.804 NotebookApp] http://ip-172-31-25-98:8888/?token=658a3d5d38eca9f9136bbd5801f76d178c5506b782acd506
+[I 06:28:26.804 NotebookApp]  or http://127.0.0.1:8888/?token=658a3d5d38eca9f9136bbd5801f76d178c5506b782acd506
+[I 06:28:26.804 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 06:28:26.809 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/ubuntu/.local/share/jupyter/runtime/nbserver-2543-open.html
+    Or copy and paste one of these URLs:
+        http://ip-172-31-25-98:8888/?token=658a3d5d38eca9f9136bbd5801f76d178c5506b782acd506
+     or http://127.0.0.1:8888/?token=658a3d5d38eca9f9136bbd5801f76d178c5506b782acd506
+[I 06:28:26.809 NotebookApp] Starting initial scan of virtual environments...
+[I 06:28:30.138 NotebookApp] Found new kernels in environments: conda_python3, conda_mxnet_p27, conda_pytorch_p27, conda_tensorflow2_p36, conda_tensorflow_p36, conda_aws_neuron_mxnet_p36, conda_pytorch_latest_p36, conda_chainer_p36, conda_tensorflow2_latest_p37, conda_tensorflow2_p27, conda_anaconda3, conda_python2, conda_chainer_p27, conda_aws_neuron_tensorflow_p36, conda_aws_neuron_pytorch_p36, conda_tensorflow_p27, conda_pytorch_p36, conda_mxnet_p36
+[I 06:29:22.562 NotebookApp] 302 GET /?token=658a3d5d38eca9f9136bbd5801f76d178c5506b782acd506 (209.58.130.129) 1.01ms
+[I 06:30:18.024 NotebookApp] Kernel started: 5c668ac6-ea66-45c7-a154-a7a8d183f940
+[I 06:32:18.249 NotebookApp] Saving file at /Env.ipynb
+[I 06:34:18.498 NotebookApp] Saving file at /Env.ipynb
+[I 06:36:18.730 NotebookApp] Saving file at /Env.ipynb
+[I 06:38:18.490 NotebookApp] Saving file at /Env.ipynb
+[I 06:40:18.493 NotebookApp] Saving file at /Env.ipynb
+[W 06:41:18.079 NotebookApp] 404 GET /static/notebook/js/main.min.js.map (209.58.130.129) 10.25ms referer=None
+[I 06:42:18.734 NotebookApp] Saving file at /Env.ipynb
+[I 06:43:10.846 NotebookApp] Saving file at /Env.ipynb
+[I 06:44:19.190 NotebookApp] Saving file at /Env.ipynb
+[I 06:47:31.714 NotebookApp] Saving file at /Env.ipynb
+[I 06:48:18.907 NotebookApp] Saving file at /Env.ipynb
+[I 06:51:54.430 NotebookApp] Saving file at /Env.ipynb
+[I 06:52:18.495 NotebookApp] Saving file at /Env.ipynb
+[I 06:54:00.057 NotebookApp] Kernel interrupted: 5c668ac6-ea66-45c7-a154-a7a8d183f940
+[I 06:54:11.836 NotebookApp] Kernel interrupted: 5c668ac6-ea66-45c7-a154-a7a8d183f940
+[I 06:54:18.514 NotebookApp] Saving file at /Env.ipynb
+[I 06:55:09.234 NotebookApp] Starting buffering for 5c668ac6-ea66-45c7-a154-a7a8d183f940:72d2a2febbe74c5c8d524ac5d0f6f51e
+[I 06:55:09.715 NotebookApp] Saving file at /Env.ipynb
+[I 06:55:45.854 NotebookApp] Saving file at /Env.ipynb
+[I 06:55:48.605 NotebookApp] Starting buffering for 5c668ac6-ea66-45c7-a154-a7a8d183f940:c572aa74ffb74270825055dfe116a133
+[I 06:56:46.037 NotebookApp] Saving file at /Env.ipynb
+[I 07:03:50.983 NotebookApp] Saving file at /Env.ipynb
+[I 07:05:51.023 NotebookApp] Saving file at /Env.ipynb
+[I 07:07:51.153 NotebookApp] Saving file at /Env.ipynb
+[I 07:09:51.216 NotebookApp] Saving file at /Env.ipynb
+[I 07:13:51.261 NotebookApp] Saving file at /Env.ipynb
+[I 07:16:28.061 NotebookApp] Starting buffering for 5c668ac6-ea66-45c7-a154-a7a8d183f940:e2611baec489479980e4b2a018014385
+[I 09:55:59.679 NotebookApp] 302 GET / (185.173.35.41) 1.00ms
+[I 10:03:48.267 NotebookApp] 302 GET / (74.120.14.53) 0.84ms
+[I 10:03:48.310 NotebookApp] 302 GET / (74.120.14.53) 0.46ms
+[I 10:03:48.353 NotebookApp] 302 GET /tree (74.120.14.53) 0.78ms
+[W 12:53:57.431 NotebookApp] 405 CONNECT 5.178.86.76:80 (5.178.86.78) 2.50ms referer=None
+[W 12:54:07.461 NotebookApp] 403 POST http://check.best-proxies.ru/ip.php?Z73663831500Q1 (5.178.86.78): '_xsrf' argument missing from POST
+[W 12:54:07.462 NotebookApp] 403 POST http://check.best-proxies.ru/ip.php?Z73663831500Q1 (5.178.86.78) 2.11ms referer=https://google.com/
+[I 12:54:07.462 NotebookApp] Malformed HTTP message from 5.178.86.78: Malformed HTTP request line
+[I 19:41:54.368 NotebookApp] Starting buffering for 5c668ac6-ea66-45c7-a154-a7a8d183f940:78c6d329326c4235bc4082a3b4585cc3
+[I 19:50:50.435 NotebookApp] 302 GET / (103.203.58.5) 1.08ms
+[I 20:47:33.695 NotebookApp] 302 GET / (162.142.125.53) 0.90ms
+[I 20:47:33.920 NotebookApp] 302 GET / (162.142.125.53) 0.42ms
+[I 20:47:34.129 NotebookApp] 302 GET /tree (162.142.125.53) 0.68ms
+[I 23:28:42.307 NotebookApp] 302 GET / (209.17.96.82) 0.87ms
+[I 23:28:42.358 NotebookApp] 302 GET /tree (209.17.96.82) 0.76ms
+[I 23:31:24.043 NotebookApp] 302 GET / (209.17.96.18) 0.61ms
+[C 17:43:28.795 NotebookApp] received signal 15, stopping
+[I 17:43:28.795 NotebookApp] Shutting down 1 kernel
+[I 17:43:29.197 NotebookApp] Kernel shutdown: 5c668ac6-ea66-45c7-a154-a7a8d183f940

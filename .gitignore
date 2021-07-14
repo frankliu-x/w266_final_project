@@ -1,2 +1,7 @@
 
 *.xml
+glove/*
+test/*
+nohup_log.out
+.ipynb_checkpoints
+__pycache__/*
