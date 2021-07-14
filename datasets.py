@@ -75,6 +75,11 @@ def get_dataset(dataset_name):
     #rest_test = 'data/new_semeval14/Restaurants_Test_Gold_biaffine_depparsed_with_energy_1.json'
     #rest_test = 'data/new_semeval14/Restaurants_Test_Gold_biaffine_depparsed_with_energy_2.json'
     #rest_test = 'data/new_semeval14/Restaurants_Test_Gold_biaffine_depparsed_with_energy_3.json'
+    #rest_test = 'data/new_semeval14/Restaurants_Test_Gold_depparsed_with_energy_same_sentiment.json'
+    #rest_test = 'data/new_semeval14/Restaurants_Test_Gold_depparsed_with_energy_diff_sentiment.json'
+    #rest_test = 'data/new_semeval14/Restaurants_Test_Gold_depparsed_with_energy_all_pos.json'
+    #rest_test = 'data/new_semeval14/Restaurants_Test_Gold_depparsed_with_energy_all_neg.json'
+    #rest_test = 'data/new_semeval14/Restaurants_Test_Gold_depparsed_with_energy_all_neu.json'
 
     laptop_train = 'data/semeval14/Laptop_Train_v2_biaffine_depparsed.json'
     laptop_test = 'data/semeval14/Laptops_Test_Gold_biaffine_depparsed.json'
