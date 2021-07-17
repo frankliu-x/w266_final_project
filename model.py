@@ -224,18 +224,29 @@ class Pure_Bert(nn.Module):
     def __init__(self, args, hidden_size=256):
         super(Pure_Bert, self).__init__()
 
-        config = BertConfig.from_pretrained(args.bert_model_dir)
+        config = BertConfig.from_pretrained(args.bert_model_dir, output_hidden_states=True)
+        # config = BertConfig.from_pretrained(args.bert_model_dir, output_hidden_states=True)
         self.tokenizer = BertTokenizer.from_pretrained(args.bert_model_dir)
         self.bert = BertModel.from_pretrained(
             args.bert_model_dir, config=config)
 
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
+
+        # self.layer_12 = nn.Linear(config.hidden_size, config.hidden_size)
+        # self.layer_11 = nn.Linear(config.hidden_size, config.hidden_size)
+
+
         layers = [nn.Linear(
             config.hidden_size, hidden_size), nn.ReLU(), nn.Linear(hidden_size, args.num_classes)]
         self.classifier = nn.Sequential(*layers)
 
     def forward(self, input_ids, token_type_ids):
         outputs = self.bert(input_ids, token_type_ids=token_type_ids)
+        # outputs_12 = outputs[2][11, :]
+        # outputs_11 = outputs[2][10, :]
+        # outputs = torch.add(self.layer_12(outputs_12), self.layer_11(outputs_11))
+
+
         # pool output is usually *not* a good summary of the semantic content of the input,
         # you're often better with averaging or poolin the sequence of hidden-states for the whole input sequence.
         pooled_output = outputs[1]
