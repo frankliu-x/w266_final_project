@@ -12,6 +12,8 @@ from model_gcn import GAT, GCN, Rel_GAT
 from model_utils import LinearAttention, DotprodAttention, RelationAttention, Highway, mask_logits
 from tree import *
 
+import logging
+logger = logging.getLogger(__name__)
 
 class Aspect_Text_GAT_ours(nn.Module):
     """
@@ -232,8 +234,10 @@ class Pure_Bert(nn.Module):
 
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
 
-        # self.layer_12 = nn.Linear(config.hidden_size, config.hidden_size)
-        # self.layer_11 = nn.Linear(config.hidden_size, config.hidden_size)
+        #self.layer_12 = nn.Linear(config.hidden_size, config.hidden_size)
+        #self.layer_11 = nn.Linear(config.hidden_size, config.hidden_size)
+        
+        logger.info('!!!!!!!!new model!!!!!!!!!!!!!!!!!!!!!!!!!!!')
 
 
         layers = [nn.Linear(
@@ -242,14 +246,15 @@ class Pure_Bert(nn.Module):
 
     def forward(self, input_ids, token_type_ids):
         outputs = self.bert(input_ids, token_type_ids=token_type_ids)
-        # outputs_12 = outputs[2][11, :]
-        # outputs_11 = outputs[2][10, :]
-        # outputs = torch.add(self.layer_12(outputs_12), self.layer_11(outputs_11))
-
+        
+        #outputs_12 = outputs[2][11][:,1, :]
+        #outputs_11 = outputs[2][10][:,1, :]
+        #outputs = torch.add(self.layer_12(outputs_12), self.layer_11(outputs_11))
+        
 
         # pool output is usually *not* a good summary of the semantic content of the input,
         # you're often better with averaging or poolin the sequence of hidden-states for the whole input sequence.
-        pooled_output = outputs[1]
+        pooled_output = outputs[2][0][:,0, :]
         # pooled_output = torch.mean(pooled_output, dim = 1)
         pooled_output = self.dropout(pooled_output)
         logits = self.classifier(pooled_output)

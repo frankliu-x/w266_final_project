@@ -1,35 +1,75 @@
 nohup: ignoring input
-[I 20:50:49.401 NotebookApp] Using EnvironmentKernelSpecManager...
-[I 20:50:49.402 NotebookApp] Started periodic updates of the kernel list (every 3 minutes).
-[I 20:50:50.714 NotebookApp] Loading IPython parallel extension
-[I 20:50:51.236 NotebookApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/lib/python3.7/site-packages/jupyterlab
-[I 20:50:51.236 NotebookApp] JupyterLab application directory is /home/ubuntu/anaconda3/share/jupyter/lab
-[I 20:50:51.631 NotebookApp] [nb_conda] enabled
-[I 20:50:51.632 NotebookApp] Serving notebooks from local directory: /home/ubuntu/w266_final_project
-[I 20:50:51.632 NotebookApp] The Jupyter Notebook is running at:
-[I 20:50:51.632 NotebookApp] http://ip-172-31-25-98:8888/?token=49ad0ee270bed4376241972678b5e1475eb0e4f2f2099cb5
-[I 20:50:51.632 NotebookApp]  or http://127.0.0.1:8888/?token=49ad0ee270bed4376241972678b5e1475eb0e4f2f2099cb5
-[I 20:50:51.632 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[C 20:50:51.636 NotebookApp] 
+[I 02:39:12.987 NotebookApp] Using EnvironmentKernelSpecManager...
+[I 02:39:12.988 NotebookApp] Started periodic updates of the kernel list (every 3 minutes).
+[I 02:39:13.702 NotebookApp] Loading IPython parallel extension
+[I 02:39:14.024 NotebookApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/envs/pytorch_latest_p36/lib/python3.6/site-packages/jupyterlab
+[I 02:39:14.024 NotebookApp] JupyterLab application directory is /home/ubuntu/anaconda3/envs/pytorch_latest_p36/share/jupyter/lab
+[I 02:39:14.578 NotebookApp] [nb_conda] enabled
+[I 02:39:14.578 NotebookApp] Serving notebooks from local directory: /home/ubuntu/w266_final_project
+[I 02:39:14.578 NotebookApp] The Jupyter Notebook is running at:
+[I 02:39:14.578 NotebookApp] http://ip-172-31-25-98:8888/?token=91d07c8bf5c06a29d1d6ca330f59f856a505a58b3d902704
+[I 02:39:14.579 NotebookApp]  or http://127.0.0.1:8888/?token=91d07c8bf5c06a29d1d6ca330f59f856a505a58b3d902704
+[I 02:39:14.579 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 02:39:14.585 NotebookApp] 
     
     To access the notebook, open this file in a browser:
-        file:///home/ubuntu/.local/share/jupyter/runtime/nbserver-2874-open.html
+        file:///home/ubuntu/.local/share/jupyter/runtime/nbserver-2825-open.html
     Or copy and paste one of these URLs:
-        http://ip-172-31-25-98:8888/?token=49ad0ee270bed4376241972678b5e1475eb0e4f2f2099cb5
-     or http://127.0.0.1:8888/?token=49ad0ee270bed4376241972678b5e1475eb0e4f2f2099cb5
-[I 20:50:51.637 NotebookApp] Starting initial scan of virtual environments...
-[I 20:50:55.410 NotebookApp] Found new kernels in environments: conda_mxnet_p27, conda_anaconda3, conda_mxnet_p36, conda_pytorch_p36, conda_tensorflow2_p27, conda_pytorch_latest_p36, conda_tensorflow2_latest_p37, conda_pytorch_p27, conda_tensorflow_p36, conda_chainer_p27, conda_chainer_p36, conda_tensorflow2_p36, conda_tensorflow_p27, conda_python2, conda_aws_neuron_tensorflow_p36, conda_python3, conda_aws_neuron_pytorch_p36, conda_aws_neuron_mxnet_p36
-[I 20:51:18.515 NotebookApp] 302 GET /?token=49ad0ee270bed4376241972678b5e1475eb0e4f2f2099cb5 (198.54.105.27) 1.27ms
-[I 20:51:58.758 NotebookApp] Saving file at /datasets.py
-[I 21:01:31.903 NotebookApp] Saving file at /datasets.py
-[I 21:02:36.616 NotebookApp] Saving file at /datasets.py
-[I 21:02:55.162 NotebookApp] Saving file at /datasets.py
-[I 21:08:35.995 NotebookApp] Saving file at /datasets.py
-[I 21:16:13.600 NotebookApp] Saving file at /datasets.py
-[I 21:22:21.113 NotebookApp] Saving file at /datasets.py
-[I 21:28:12.000 NotebookApp] Saving file at /datasets.py
-[I 21:34:22.571 NotebookApp] Saving file at /datasets.py
-[I 21:40:39.136 NotebookApp] Saving file at /datasets.py
-[I 21:45:38.521 NotebookApp] Saving file at /datasets.py
-[I 21:45:43.372 NotebookApp] Saving file at /datasets.py
-[I 21:52:09.607 NotebookApp] Saving file at /datasets.py
+        http://ip-172-31-25-98:8888/?token=91d07c8bf5c06a29d1d6ca330f59f856a505a58b3d902704
+     or http://127.0.0.1:8888/?token=91d07c8bf5c06a29d1d6ca330f59f856a505a58b3d902704
+[I 02:39:14.585 NotebookApp] Starting initial scan of virtual environments...
+[I 02:39:19.200 NotebookApp] Found new kernels in environments: conda_pytorch_latest_p36, conda_mxnet_p27, conda_python3, conda_tensorflow2_p36, conda_chainer_p36, conda_anaconda3, conda_mxnet_p36, conda_aws_neuron_tensorflow_p36, conda_pytorch_p27, conda_aws_neuron_mxnet_p36, conda_chainer_p27, conda_aws_neuron_pytorch_p36, conda_tensorflow2_latest_p37, conda_tensorflow_p27, conda_pytorch_p36, conda_tensorflow2_p27, conda_tensorflow_p36, conda_python2
+[I 02:39:27.357 NotebookApp] 302 GET /?token=f53873a87e14c135625c29f52d044c5ecf4cd0322f9a11f1 (198.54.105.27) 1.08ms
+[I 02:39:27.379 NotebookApp] 302 GET /tree?token=f53873a87e14c135625c29f52d044c5ecf4cd0322f9a11f1 (198.54.105.27) 1.16ms
+[I 02:39:35.417 NotebookApp] 302 GET /?token=91d07c8bf5c06a29d1d6ca330f59f856a505a58b3d902704 (198.54.105.27) 0.76ms
+[I 02:41:29.831 NotebookApp] Saving file at /model.py
+[I 02:41:42.941 NotebookApp] Kernel started: 5640e0d6-42d4-4b7c-8ed5-7e3217e1bf70
+[I 02:43:43.456 NotebookApp] Saving file at /Env.ipynb
+[I 02:45:43.884 NotebookApp] Saving file at /Env.ipynb
+[I 02:47:43.108 NotebookApp] Saving file at /Env.ipynb
+[I 02:49:43.084 NotebookApp] Saving file at /Env.ipynb
+[I 02:51:44.692 NotebookApp] Saving file at /Env.ipynb
+[I 02:53:37.341 NotebookApp] Saving file at /model.py
+[I 02:53:39.220 NotebookApp] Saving file at /model.py
+[I 02:53:43.109 NotebookApp] Saving file at /Env.ipynb
+[I 02:55:43.110 NotebookApp] Saving file at /Env.ipynb
+[I 02:57:44.636 NotebookApp] Saving file at /Env.ipynb
+[I 02:59:44.104 NotebookApp] Saving file at /Env.ipynb
+[I 03:01:44.708 NotebookApp] Saving file at /Env.ipynb
+[I 03:03:43.962 NotebookApp] Saving file at /Env.ipynb
+[I 03:07:47.656 NotebookApp] Saving file at /Env.ipynb
+[I 03:09:20.453 NotebookApp] Saving file at /model.py
+[I 03:11:43.155 NotebookApp] Saving file at /Env.ipynb
+[I 03:13:43.141 NotebookApp] Saving file at /Env.ipynb
+[I 03:15:43.144 NotebookApp] Saving file at /Env.ipynb
+[I 03:17:14.387 NotebookApp] 302 GET / (209.17.96.154) 1.19ms
+[I 03:17:44.353 NotebookApp] Saving file at /Env.ipynb
+[I 03:19:43.182 NotebookApp] Saving file at /Env.ipynb
+[I 03:21:43.170 NotebookApp] Saving file at /Env.ipynb
+[I 03:37:10.884 NotebookApp] Saving file at /model.py
+[I 03:37:43.189 NotebookApp] Saving file at /Env.ipynb
+[I 03:39:43.236 NotebookApp] Saving file at /Env.ipynb
+[I 03:41:45.587 NotebookApp] Saving file at /Env.ipynb
+[I 03:42:04.355 NotebookApp] Kernel interrupted: 5640e0d6-42d4-4b7c-8ed5-7e3217e1bf70
+[I 03:42:35.330 NotebookApp] Saving file at /model.py
+[I 03:43:48.379 NotebookApp] Saving file at /Env.ipynb
+[I 03:43:53.734 NotebookApp] Creating new notebook in 
+[I 03:43:57.606 NotebookApp] Kernel started: 414c2090-aec8-459a-a70c-de09c0b32312
+[I 03:45:58.792 NotebookApp] Saving file at /Untitled.ipynb
+[I 03:47:58.022 NotebookApp] Saving file at /Untitled.ipynb
+[I 03:49:58.800 NotebookApp] Saving file at /Untitled.ipynb
+[I 03:51:57.217 NotebookApp] Saving file at /Untitled.ipynb
+[I 03:52:52.735 NotebookApp] Starting buffering for 5640e0d6-42d4-4b7c-8ed5-7e3217e1bf70:04676c5d5ba44b39a163692bbb6d6be1
+[I 03:53:01.667 NotebookApp] Saving file at /Untitled.ipynb
+[I 03:53:04.862 NotebookApp] Starting buffering for 414c2090-aec8-459a-a70c-de09c0b32312:9fa79c204d8c49d284f2545e13825ef8
+[I 03:53:46.100 NotebookApp] Starting buffering for 414c2090-aec8-459a-a70c-de09c0b32312:6aceb05485d644f1ad4ba40c131a1fa2
+[I 03:54:07.012 NotebookApp] Starting buffering for 414c2090-aec8-459a-a70c-de09c0b32312:3fe8c747d90b4579bc9729047cdf05d0
+[I 03:54:15.413 NotebookApp] Kernel shutdown: 414c2090-aec8-459a-a70c-de09c0b32312
+[W 03:54:15.817 NotebookApp] delete /Untitled.ipynb
+[I 03:54:24.143 NotebookApp] Creating new notebook in 
+[I 03:54:25.228 NotebookApp] Kernel started: 930e1328-d749-4688-a4ed-12f99e7196fb
+[I 03:56:25.289 NotebookApp] Saving file at /Untitled.ipynb
+[I 03:58:25.291 NotebookApp] Saving file at /Untitled.ipynb
+[I 03:58:45.681 NotebookApp] Saving file at /Untitled.ipynb
+[I 04:00:26.553 NotebookApp] Saving file at /Bert_Returns_example.ipynb
+[I 04:01:28.855 NotebookApp] Saving file at /Bert_Returns_example.ipynb
