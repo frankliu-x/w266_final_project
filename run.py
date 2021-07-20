@@ -51,6 +51,16 @@ def parse_args():
                         help='Path to pre-trained Bert model.')
     parser.add_argument('--pure_bert', action='store_true',
                         help='Cat text and aspect, [cls] to predict.')
+
+    parser.add_argument('--pure_bert_layer_agg', action='store_true',
+                        help='Pure bert layer aggregation enable/not')
+
+    parser.add_argument('--pure_bert_layer_agg_list', type=str, default="12",
+                        help='Pure Bert layer number to aggregate')
+
+    parser.add_argument('--pure_bert_linear_layer_count', type=int, default=2,
+                        help='Pure Bert final linear layer count')
+
     parser.add_argument('--gat_bert', action='store_true',
                         help='Cat text and aspect, [cls] to predict.')
 

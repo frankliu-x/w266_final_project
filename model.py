@@ -234,8 +234,11 @@ class Pure_Bert(nn.Module):
 
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
 
-        #self.layer_12 = nn.Linear(config.hidden_size, config.hidden_size)
-        #self.layer_11 = nn.Linear(config.hidden_size, config.hidden_size)
+        self.layers_num_to_agg = [int(i) for i in args.pure_bert_layer_agg_list.split(',')]
+
+        self.layers = [nn.Linear(config.hidden_size, config.hidden_size) ] * len(self.layers_num_to_agg)
+        # self.layer_12 = nn.Linear(config.hidden_size, config.hidden_size)
+        # self.layer_11 = nn.Linear(config.hidden_size, config.hidden_size)
         
         logger.info('!!!!!!!!new model!!!!!!!!!!!!!!!!!!!!!!!!!!!')
 
@@ -249,12 +252,23 @@ class Pure_Bert(nn.Module):
         
         #outputs_12 = outputs[2][11][:,1, :]
         #outputs_11 = outputs[2][10][:,1, :]
-        #outputs = torch.add(self.layer_12(outputs_12), self.layer_11(outputs_11))
-        
+
+        pooled_output = None
+        if len(self.layers_num_to_agg) == 1:
+            pooled_output = outputs[2][self.layers_num_to_agg[0]][:,0, :]
+        else:
+            for i, num in enumerate(self.layers_num_to_agg):
+                #outputs = torch.add(self.layer_12(outputs_12), self.layer_11(outputs_11))
+                if i == 0:
+                    pooled_output = self.layers[i](outputs[2][num][:,0,:])
+                else:
+                    pooled_output = torch.add(pooled_output, self.layers[i](outputs[2][num][:,0,:]))
+
+
 
         # pool output is usually *not* a good summary of the semantic content of the input,
         # you're often better with averaging or poolin the sequence of hidden-states for the whole input sequence.
-        pooled_output = outputs[2][0][:,0, :]
+        #pooled_output = outputs[2][0][:,0, :]
         # pooled_output = torch.mean(pooled_output, dim = 1)
         pooled_output = self.dropout(pooled_output)
         logits = self.classifier(pooled_output)
