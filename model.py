@@ -233,44 +233,65 @@ class Pure_Bert(nn.Module):
             args.bert_model_dir, config=config)
 
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
+        
+        # Part for Hidden Layer1
+        logger.info('Hidden Layer 8')
+        layers = [nn.Linear(
+            config.hidden_size, hidden_size), nn.ReLU(), nn.Linear(hidden_size, args.num_classes)]
 
-#         self.layers_num_to_agg = [int(i) for i in args.pure_bert_layer_agg_list.split(',')]
-#         logger.info('layers to agg:{}'.format(self.layers_num_to_agg))
+
+        ''' Part for Hidden Layer1+Layer2
+        
+        # start Hidden Layer1+Layer2
+        
+        logger.info('Hidden Layer 11 & 12')
+        
+        #self.layers_num_to_agg = [int(i) for i in args.pure_bert_layer_agg_list.split(',')]
+        #logger.info('layers to agg:{}'.format(self.layers_num_to_agg))
 
         #self.layers = [nn.Linear(config.hidden_size, hidden_size) ] * len(self.layers_num_to_agg)
         #logger.info('layers :{}'.format(self.layers))
         self.layer_12 = nn.Linear(config.hidden_size, hidden_size)
         self.layer_11 = nn.Linear(config.hidden_size, hidden_size)
         #self.layer_10 = nn.Linear(config.hidden_size, hidden_size)
-        
-        logger.info('!!!!!!!!new model!!!!????')
-
-
         layers = [nn.ReLU(), nn.Linear(hidden_size, hidden_size), nn.ReLU(), nn.Linear(hidden_size, args.num_classes)]
+        
+        # end Hidden Layer1+Layer2
+        '''
         self.classifier = nn.Sequential(*layers)
+        
 
     def forward(self, input_ids, token_type_ids):
         outputs = self.bert(input_ids, token_type_ids=token_type_ids)
         
+        
+        #Part for Hidden Layer1
+        # start 
+        pooled_output = outputs[2][10][:,0, :]
+        # end 
+      
+        
+        ''' Part for Hidden Layer1+Layer2
+        # start 
         outputs_12 = outputs[2][12][:,0, :]
         outputs_11 = outputs[2][11][:,0, :]
         #outputs_10 = outputs[2][10][:,0, :]
         pooled_output = torch.add(self.layer_12(outputs_12), self.layer_11(outputs_11))
+        #end 
+        '''
         
-        
-#         pooled_output = None
-#         if len(self.layers_num_to_agg) == 1:
-#             pooled_output = outputs[2][self.layers_num_to_agg[0]][:,0, :]
-#         else:
-#             for i, num in enumerate(self.layers_num_to_agg):
-#                 #outputs = torch.add(self.layer_12(outputs_12), self.layer_11(outputs_11))
-#                 if i == 0:
-                    
-#                     pooled_output = self.layers[i](outputs[2][num][:,0,:])
-#                 else:
-#                     pooled_output = torch.add(pooled_output, self.layers[i](outputs[2][num][:,0,:]))
-
-
+        ''' Draft of universal
+        pooled_output = None
+        if len(self.layers_num_to_agg) == 1:
+            pooled_output = outputs[2][self.layers_num_to_agg[0]][:,0, :]
+        else:
+             for i, num in enumerate(self.layers_num_to_agg):
+                 outputs = torch.add(self.layer_12(outputs_12), self.layer_11(outputs_11))
+                 if i == 0:
+                     pooled_output = self.layers[i](outputs[2][num][:,0,:])
+                 else:
+                     pooled_output = torch.add(pooled_output, self.layers[i](outputs[2][num][:,0,:]))
+        '''
 
         # pool output is usually *not* a good summary of the semantic content of the input,
         # you're often better with averaging or poolin the sequence of hidden-states for the whole input sequence.
