@@ -179,3 +179,211 @@ AttributeError: 'NoneType' object has no attribute 'send_multipart'
 [I 02:59:48.673 NotebookApp] Restoring connection for 5bc80b56-87d7-4cb1-b87c-6a4e232113d5:ec34d61db53b4412879c25a073deb52a
 [I 02:59:48.673 NotebookApp] Replaying 3 buffered messages
 [I 02:59:59.227 NotebookApp] 302 GET / (144.86.173.142) 0.59ms
+[I 03:00:32.817 NotebookApp] Saving file at /model.py
+[I 03:01:44.480 NotebookApp] Saving file at /model.py
+[I 03:01:49.277 NotebookApp] Starting buffering for 5bc80b56-87d7-4cb1-b87c-6a4e232113d5:ec34d61db53b4412879c25a073deb52a
+[W 03:01:50.009 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:01:55.057 NotebookApp] Starting buffering for 5bc80b56-87d7-4cb1-b87c-6a4e232113d5:b777e6be2c504da2816c57ef857cc78e
+[I 03:01:55.267 NotebookApp] Kernel restarted: 5bc80b56-87d7-4cb1-b87c-6a4e232113d5
+[I 03:01:56.061 NotebookApp] Restoring connection for 5bc80b56-87d7-4cb1-b87c-6a4e232113d5:b777e6be2c504da2816c57ef857cc78e
+[I 03:01:56.061 NotebookApp] Replaying 6 buffered messages
+[I 03:03:06.913 NotebookApp] 302 GET / (144.86.173.78) 0.94ms
+[I 03:03:52.098 NotebookApp] Saving file at /Env.ipynb
+[W 03:03:52.099 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:05:37.895 NotebookApp] 302 GET / (144.86.173.131) 0.50ms
+[I 03:05:53.500 NotebookApp] Saving file at /Env.ipynb
+[W 03:05:53.501 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:07:53.530 NotebookApp] Saving file at /Env.ipynb
+[W 03:07:53.530 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:07:54.811 NotebookApp] 302 GET / (144.86.173.152) 0.48ms
+[I 03:09:52.040 NotebookApp] Saving file at /Env.ipynb
+[W 03:09:52.041 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:10:06.639 NotebookApp] 302 GET / (144.86.173.73) 0.50ms
+[I 03:11:01.676 NotebookApp] 302 GET / (144.86.173.153) 0.63ms
+[I 03:11:02.068 NotebookApp] 302 GET / (144.86.173.81) 0.51ms
+[I 03:11:52.046 NotebookApp] Saving file at /Env.ipynb
+[W 03:11:52.047 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:13:52.089 NotebookApp] Saving file at /Env.ipynb
+[W 03:13:52.090 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:13:54.173 NotebookApp] Saving file at /Env.ipynb
+[W 03:13:54.174 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:14:09.393 NotebookApp] Saving file at /model.py
+[I 03:14:11.883 NotebookApp] Starting buffering for 5bc80b56-87d7-4cb1-b87c-6a4e232113d5:b777e6be2c504da2816c57ef857cc78e
+[W 03:14:20.999 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:14:29.294 NotebookApp] Saving file at /Env.ipynb
+[W 03:14:29.295 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:14:34.188 NotebookApp] Starting buffering for 5bc80b56-87d7-4cb1-b87c-6a4e232113d5:6a3c222dc3bd4b628539fa958a7e62ad
+[I 03:14:34.997 NotebookApp] Kernel restarted: 5bc80b56-87d7-4cb1-b87c-6a4e232113d5
+[I 03:14:35.669 NotebookApp] Restoring connection for 5bc80b56-87d7-4cb1-b87c-6a4e232113d5:6a3c222dc3bd4b628539fa958a7e62ad
+[I 03:14:35.669 NotebookApp] Replaying 5 buffered messages
+[I 03:16:23.053 NotebookApp] Saving file at /Env.ipynb
+[W 03:16:23.054 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:18:16.490 NotebookApp] 302 GET / (144.86.173.150) 0.87ms
+[I 03:18:23.043 NotebookApp] Saving file at /Env.ipynb
+[W 03:18:23.044 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:20:23.053 NotebookApp] Saving file at /Env.ipynb
+[W 03:20:23.053 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:21:15.846 NotebookApp] 302 GET / (144.86.173.89) 0.82ms
+[I 03:22:11.975 NotebookApp] 302 GET / (144.86.173.2) 0.50ms
+[I 03:22:23.059 NotebookApp] Saving file at /Env.ipynb
+[W 03:22:23.059 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:24:20.541 NotebookApp] 302 GET / (144.86.173.129) 0.85ms
+[I 03:24:23.068 NotebookApp] Saving file at /Env.ipynb
+[W 03:24:23.069 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:26:23.070 NotebookApp] Saving file at /Env.ipynb
+[W 03:26:23.070 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:26:56.054 NotebookApp] Saving file at /Env.ipynb
+[W 03:26:56.055 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:27:02.788 NotebookApp] 302 GET / (144.86.173.86) 0.91ms
+[I 03:27:15.733 NotebookApp] 302 GET / (144.86.173.66) 0.49ms
+[I 03:32:29.426 NotebookApp] Saving file at /Env.ipynb
+[W 03:32:29.427 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:32:42.795 NotebookApp] 302 GET / (144.86.173.155) 0.53ms
+[I 03:36:56.554 NotebookApp] 302 GET / (144.86.173.159) 0.89ms
+[I 03:40:23.094 NotebookApp] Saving file at /Env.ipynb
+[W 03:40:23.094 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:40:34.119 NotebookApp] 302 GET / (144.86.173.140) 0.54ms
+[I 03:43:01.331 NotebookApp] 302 GET / (144.86.173.17) 0.92ms
+[I 03:44:51.828 NotebookApp] Saving file at /model.py
+[I 03:46:32.513 NotebookApp] 302 GET / (144.86.173.140) 0.57ms
+[I 03:46:38.604 NotebookApp] Saving file at /model.py
+[I 03:46:45.375 NotebookApp] Saving file at /model.py
+[I 03:47:05.574 NotebookApp] 302 GET / (144.86.173.65) 0.54ms
+[I 03:47:55.936 NotebookApp] Saving file at /model.py
+[I 03:48:18.753 NotebookApp] 302 GET / (144.86.173.18) 0.85ms
+[I 03:48:23.083 NotebookApp] Saving file at /Env.ipynb
+[W 03:48:23.084 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:48:57.296 NotebookApp] 302 GET / (144.86.173.31) 0.56ms
+[I 03:49:15.383 NotebookApp] 302 GET / (144.86.173.144) 0.57ms
+[I 03:49:15.387 NotebookApp] 302 GET / (144.86.173.144) 0.40ms
+[I 03:49:58.127 NotebookApp] Saving file at /model.py
+[I 03:50:08.278 NotebookApp] Starting buffering for 5bc80b56-87d7-4cb1-b87c-6a4e232113d5:6a3c222dc3bd4b628539fa958a7e62ad
+[I 03:50:09.088 NotebookApp] Kernel restarted: 5bc80b56-87d7-4cb1-b87c-6a4e232113d5
+[I 03:50:09.906 NotebookApp] Restoring connection for 5bc80b56-87d7-4cb1-b87c-6a4e232113d5:6a3c222dc3bd4b628539fa958a7e62ad
+[I 03:50:09.906 NotebookApp] Replaying 6 buffered messages
+[I 03:50:23.942 NotebookApp] Saving file at /Env.ipynb
+[W 03:50:23.942 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:52:23.102 NotebookApp] Saving file at /Env.ipynb
+[W 03:52:23.103 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:54:23.097 NotebookApp] Saving file at /Env.ipynb
+[W 03:54:23.098 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:56:23.967 NotebookApp] Saving file at /Env.ipynb
+[W 03:56:23.968 NotebookApp] Notebook Env.ipynb is not trusted
+[I 03:57:43.099 NotebookApp] 302 GET / (144.86.173.93) 0.84ms
+[I 03:58:26.222 NotebookApp] Saving file at /Env.ipynb
+[W 03:58:26.223 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:00:07.627 NotebookApp] 302 GET / (144.86.173.7) 0.81ms
+[I 04:00:23.131 NotebookApp] Saving file at /Env.ipynb
+[W 04:00:23.132 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:00:34.235 NotebookApp] 302 GET / (144.86.173.23) 0.55ms
+[I 04:00:34.236 NotebookApp] 302 GET / (144.86.173.23) 0.54ms
+[I 04:02:11.915 NotebookApp] Saving file at /Env.ipynb
+[W 04:02:11.916 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:02:13.108 NotebookApp] 302 GET / (144.86.173.4) 0.42ms
+[I 04:02:42.152 NotebookApp] Saving file at /Env.ipynb
+[W 04:02:42.153 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:03:20.247 NotebookApp] Saving file at /Env.ipynb
+[W 04:03:20.248 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:03:29.393 NotebookApp] Saving file at /model.py
+[I 04:03:57.880 NotebookApp] Saving file at /Env.ipynb
+[W 04:03:57.881 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:04:08.701 NotebookApp] Saving file at /model.py
+[I 04:04:20.064 NotebookApp] 302 GET / (144.86.173.2) 0.50ms
+[I 04:04:20.064 NotebookApp] 302 GET / (144.86.173.2) 0.35ms
+[I 04:04:23.110 NotebookApp] Saving file at /Env.ipynb
+[W 04:04:23.111 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:04:24.062 NotebookApp] Kernel restarted: 5bc80b56-87d7-4cb1-b87c-6a4e232113d5
+[I 04:04:24.066 NotebookApp] Starting buffering for 5bc80b56-87d7-4cb1-b87c-6a4e232113d5:6a3c222dc3bd4b628539fa958a7e62ad
+[I 04:04:24.746 NotebookApp] Restoring connection for 5bc80b56-87d7-4cb1-b87c-6a4e232113d5:6a3c222dc3bd4b628539fa958a7e62ad
+[I 04:04:24.746 NotebookApp] Replaying 2 buffered messages
+[I 04:04:38.199 NotebookApp] Starting buffering for 5bc80b56-87d7-4cb1-b87c-6a4e232113d5:6a3c222dc3bd4b628539fa958a7e62ad
+[I 04:04:38.409 NotebookApp] Kernel restarted: 5bc80b56-87d7-4cb1-b87c-6a4e232113d5
+[I 04:04:39.081 NotebookApp] Restoring connection for 5bc80b56-87d7-4cb1-b87c-6a4e232113d5:6a3c222dc3bd4b628539fa958a7e62ad
+[I 04:04:39.081 NotebookApp] Replaying 6 buffered messages
+[I 04:05:00.134 NotebookApp] 302 GET / (144.86.173.134) 0.83ms
+[I 04:06:23.088 NotebookApp] Saving file at /Env.ipynb
+[W 04:06:23.089 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:07:41.102 NotebookApp] 302 GET / (144.86.173.33) 0.90ms
+[I 04:08:23.075 NotebookApp] Saving file at /Env.ipynb
+[W 04:08:23.076 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:10:23.082 NotebookApp] Saving file at /Env.ipynb
+[W 04:10:23.083 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:10:45.459 NotebookApp] 302 GET / (144.86.173.25) 0.50ms
+[I 04:12:23.095 NotebookApp] Saving file at /Env.ipynb
+[W 04:12:23.096 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:13:11.179 NotebookApp] 302 GET / (144.86.173.135) 0.60ms
+[I 04:13:11.186 NotebookApp] 302 GET / (144.86.173.135) 0.40ms
+[I 04:13:48.070 NotebookApp] 302 GET / (144.86.173.143) 0.55ms
+[I 04:14:23.098 NotebookApp] Saving file at /Env.ipynb
+[W 04:14:23.103 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:16:24.362 NotebookApp] Saving file at /Env.ipynb
+[W 04:16:24.363 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:20:33.588 NotebookApp] 302 GET / (144.86.173.157) 0.94ms
+[I 04:20:51.874 NotebookApp] 302 GET / (144.86.173.152) 0.54ms
+[I 04:20:51.875 NotebookApp] 302 GET / (144.86.173.152) 0.52ms
+[I 04:20:52.316 NotebookApp] Saving file at /Env.ipynb
+[W 04:20:52.317 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:21:57.644 NotebookApp] Saving file at /model.py
+[I 04:22:00.283 NotebookApp] Saving file at /Env.ipynb
+[W 04:22:00.283 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:22:02.996 NotebookApp] Starting buffering for 5bc80b56-87d7-4cb1-b87c-6a4e232113d5:6a3c222dc3bd4b628539fa958a7e62ad
+[I 04:22:03.806 NotebookApp] Kernel restarted: 5bc80b56-87d7-4cb1-b87c-6a4e232113d5
+[I 04:22:04.593 NotebookApp] Restoring connection for 5bc80b56-87d7-4cb1-b87c-6a4e232113d5:6a3c222dc3bd4b628539fa958a7e62ad
+[I 04:22:04.593 NotebookApp] Replaying 6 buffered messages
+[I 04:22:26.269 NotebookApp] 302 GET / (144.86.173.149) 0.57ms
+[I 04:24:23.096 NotebookApp] Saving file at /Env.ipynb
+[W 04:24:23.097 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:26:23.085 NotebookApp] Saving file at /Env.ipynb
+[W 04:26:23.086 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:27:07.982 NotebookApp] 302 GET / (144.86.173.4) 1.13ms
+[I 04:27:45.657 NotebookApp] 302 GET / (144.86.173.145) 0.82ms
+[I 04:28:23.102 NotebookApp] Saving file at /Env.ipynb
+[W 04:28:23.103 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:30:23.094 NotebookApp] Saving file at /Env.ipynb
+[W 04:30:23.094 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:30:50.248 NotebookApp] 302 GET / (144.86.173.151) 0.55ms
+[I 04:32:23.161 NotebookApp] Saving file at /Env.ipynb
+[W 04:32:23.162 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:32:38.847 NotebookApp] 302 GET / (144.86.173.84) 0.46ms
+[I 04:34:25.755 NotebookApp] Saving file at /Env.ipynb
+[W 04:34:25.756 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:35:59.336 NotebookApp] 302 GET / (144.86.173.91) 0.99ms
+[I 04:35:59.337 NotebookApp] 302 GET / (144.86.173.91) 0.75ms
+[I 04:36:23.109 NotebookApp] Saving file at /Env.ipynb
+[W 04:36:23.110 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:37:56.559 NotebookApp] Saving file at /model.py
+[I 04:38:21.219 NotebookApp] Saving file at /model.py
+[I 04:38:23.116 NotebookApp] Saving file at /Env.ipynb
+[W 04:38:23.117 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:38:23.654 NotebookApp] Saving file at /Env.ipynb
+[W 04:38:23.654 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:38:26.456 NotebookApp] Starting buffering for 5bc80b56-87d7-4cb1-b87c-6a4e232113d5:6a3c222dc3bd4b628539fa958a7e62ad
+[I 04:38:27.266 NotebookApp] Kernel restarted: 5bc80b56-87d7-4cb1-b87c-6a4e232113d5
+[I 04:38:27.858 NotebookApp] Restoring connection for 5bc80b56-87d7-4cb1-b87c-6a4e232113d5:6a3c222dc3bd4b628539fa958a7e62ad
+[I 04:38:27.858 NotebookApp] Replaying 3 buffered messages
+[I 04:40:23.885 NotebookApp] Saving file at /Env.ipynb
+[W 04:40:23.886 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:42:24.620 NotebookApp] Saving file at /Env.ipynb
+[W 04:42:24.621 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:42:29.510 NotebookApp] 302 GET / (144.86.173.79) 0.57ms
+[I 04:43:21.280 NotebookApp] 302 GET / (144.86.173.155) 0.93ms
+[I 04:43:21.288 NotebookApp] 302 GET / (144.86.173.155) 0.62ms
+[I 04:44:23.152 NotebookApp] Saving file at /Env.ipynb
+[W 04:44:23.154 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:46:23.145 NotebookApp] Saving file at /Env.ipynb
+[W 04:46:23.146 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:47:28.113 NotebookApp] 302 GET / (144.86.173.158) 0.52ms
+[I 04:47:28.120 NotebookApp] 302 GET / (144.86.173.158) 0.40ms
+[I 04:47:42.397 NotebookApp] 302 GET / (144.86.173.71) 0.54ms
+[I 04:47:42.398 NotebookApp] 302 GET / (144.86.173.71) 0.47ms
+[I 04:48:23.163 NotebookApp] Saving file at /Env.ipynb
+[W 04:48:23.163 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:50:23.968 NotebookApp] Saving file at /Env.ipynb
+[W 04:50:23.969 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:51:45.356 NotebookApp] Saving file at /Env.ipynb
+[W 04:51:45.356 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:51:51.145 NotebookApp] Saving file at /Env.ipynb
+[W 04:51:51.146 NotebookApp] Notebook Env.ipynb is not trusted
+[I 04:51:51.803 NotebookApp] Starting buffering for 5bc80b56-87d7-4cb1-b87c-6a4e232113d5:6a3c222dc3bd4b628539fa958a7e62ad
+[I 04:51:54.617 NotebookApp] Saving file at /model.py
+[I 04:52:44.106 NotebookApp] 302 GET / (144.86.173.68) 0.51ms

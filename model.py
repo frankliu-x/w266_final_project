@@ -234,30 +234,39 @@ class Pure_Bert(nn.Module):
 
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
         
-        # Part for Hidden Layer1
-        logger.info('Hidden Layer 8')
+        '''# Part for Hidden Layer1
+        logger.info('Hidden Layer 11')
+        
         layers = [nn.Linear(
             config.hidden_size, hidden_size), nn.ReLU(), nn.Linear(hidden_size, args.num_classes)]
+        '''
+  
 
 
-        ''' Part for Hidden Layer1+Layer2
+        #Part for Hidden Layer1+Layer2
         
-        # start Hidden Layer1+Layer2
+        # start 
         
-        logger.info('Hidden Layer 11 & 12')
+        logger.info('Hidden Layer 0 & 12, FC1')
         
         #self.layers_num_to_agg = [int(i) for i in args.pure_bert_layer_agg_list.split(',')]
         #logger.info('layers to agg:{}'.format(self.layers_num_to_agg))
 
         #self.layers = [nn.Linear(config.hidden_size, hidden_size) ] * len(self.layers_num_to_agg)
         #logger.info('layers :{}'.format(self.layers))
-        self.layer_12 = nn.Linear(config.hidden_size, hidden_size)
-        self.layer_11 = nn.Linear(config.hidden_size, hidden_size)
-        #self.layer_10 = nn.Linear(config.hidden_size, hidden_size)
-        layers = [nn.ReLU(), nn.Linear(hidden_size, hidden_size), nn.ReLU(), nn.Linear(hidden_size, args.num_classes)]
         
-        # end Hidden Layer1+Layer2
-        '''
+        self.layer_a = nn.Linear(config.hidden_size, hidden_size) # FC1，2 (768,256)
+        self.layer_b = nn.Linear(config.hidden_size, hidden_size) # FC1, 2
+        #self.layer_a = nn.Linear(config.hidden_size, config.hidden_size) # FC3 (768,768)
+        #self.layer_b = nn.Linear(config.hidden_size, config.hidden_size) # FC3
+        
+        #self.layer_10 = nn.Linear(config.hidden_size, hidden_size)
+        
+        layers = [nn.ReLU(), nn.Linear(hidden_size, args.num_classes)] #FC1
+        #layers = [nn.ReLU(), nn.Linear(hidden_size, hidden_size), nn.ReLU(), nn.Linear(hidden_size, args.num_classes)] #FC2
+        #layers = [nn.Linear(config.hidden_size, hidden_size), nn.ReLU(), nn.Linear(hidden_size, args.num_classes)] #FC3
+        # end   
+        
         self.classifier = nn.Sequential(*layers)
         
 
@@ -265,20 +274,21 @@ class Pure_Bert(nn.Module):
         outputs = self.bert(input_ids, token_type_ids=token_type_ids)
         
         
-        #Part for Hidden Layer1
+        '''#Part for Hidden Layer1
         # start 
-        pooled_output = outputs[2][10][:,0, :]
+        pooled_output = outputs[2][11][:,0, :]
         # end 
+        '''
       
         
-        ''' Part for Hidden Layer1+Layer2
+        #Part for Hidden Layer1+Layer2
         # start 
-        outputs_12 = outputs[2][12][:,0, :]
-        outputs_11 = outputs[2][11][:,0, :]
+        outputs_a = outputs[2][0][:,0, :]
+        outputs_b= outputs[2][12][:,0, :]
         #outputs_10 = outputs[2][10][:,0, :]
-        pooled_output = torch.add(self.layer_12(outputs_12), self.layer_11(outputs_11))
+        pooled_output = torch.add(self.layer_a(outputs_a), self.layer_b(outputs_b))
         #end 
-        '''
+        
         
         ''' Draft of universal
         pooled_output = None
