@@ -231,6 +231,9 @@ class Pure_Bert(nn.Module):
         self.tokenizer = BertTokenizer.from_pretrained(args.bert_model_dir)
         self.bert = BertModel.from_pretrained(
             args.bert_model_dir, config=config)
+        
+        for param in self.bert.parameters():
+            param.requires_grad = False
 
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
         
