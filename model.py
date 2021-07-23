@@ -232,25 +232,32 @@ class Pure_Bert(nn.Module):
         self.bert = BertModel.from_pretrained(
             args.bert_model_dir, config=config)
         
-        for param in self.bert.parameters():
-            param.requires_grad = False
+        if args.frozen_percent > 0:
+            frozen_layer = int(args.frozen_percent * 199)
+            for param in list(self.bert.parameters())[:frozen_layer-1]:  # Frozen Bert 
+                param.requires_grad = False
 
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
         
+        
         '''# Part for Hidden Layer1
-        logger.info('Hidden Layer 11')
+        # start
+        self.layer_num = args.hidden_layer_no
+        logger.info('Hidden Layer {} frozen percentage {}'.format(self.layer_num, args.frozen_percent))
+        
         
         layers = [nn.Linear(
             config.hidden_size, hidden_size), nn.ReLU(), nn.Linear(hidden_size, args.num_classes)]
+        #end   
         '''
-  
-
-
+        
+     
+        
         #Part for Hidden Layer1+Layer2
         
         # start 
         
-        logger.info('Hidden Layer 0 & 12, FC1')
+        logger.info('Hidden Layer 11 & 12, FC1')
         
         #self.layers_num_to_agg = [int(i) for i in args.pure_bert_layer_agg_list.split(',')]
         #logger.info('layers to agg:{}'.format(self.layers_num_to_agg))
@@ -268,7 +275,7 @@ class Pure_Bert(nn.Module):
         layers = [nn.ReLU(), nn.Linear(hidden_size, args.num_classes)] #FC1
         #layers = [nn.ReLU(), nn.Linear(hidden_size, hidden_size), nn.ReLU(), nn.Linear(hidden_size, args.num_classes)] #FC2
         #layers = [nn.Linear(config.hidden_size, hidden_size), nn.ReLU(), nn.Linear(hidden_size, args.num_classes)] #FC3
-        # end   
+        # end  
         
         self.classifier = nn.Sequential(*layers)
         
@@ -279,18 +286,20 @@ class Pure_Bert(nn.Module):
         
         '''#Part for Hidden Layer1
         # start 
-        pooled_output = outputs[2][11][:,0, :]
-        # end 
+        pooled_output = outputs[2][self.layer_num][:,0, :]
+        # end
         '''
+        
       
         
         #Part for Hidden Layer1+Layer2
         # start 
-        outputs_a = outputs[2][0][:,0, :]
+        outputs_a = outputs[2][11][:,0, :]
         outputs_b= outputs[2][12][:,0, :]
         #outputs_10 = outputs[2][10][:,0, :]
         pooled_output = torch.add(self.layer_a(outputs_a), self.layer_b(outputs_b))
         #end 
+        
         
         
         ''' Draft of universal
