@@ -1,208 +1,273 @@
 nohup: ignoring input
-[I 19:22:14.173 NotebookApp] Using EnvironmentKernelSpecManager...
-[I 19:22:14.174 NotebookApp] Started periodic updates of the kernel list (every 3 minutes).
-[I 19:22:14.847 NotebookApp] Loading IPython parallel extension
+[I 19:47:19.186 NotebookApp] Using EnvironmentKernelSpecManager...
+[I 19:47:19.187 NotebookApp] Started periodic updates of the kernel list (every 3 minutes).
+[I 19:47:19.848 NotebookApp] Loading IPython parallel extension
 /home/ubuntu/anaconda3/envs/pytorch_latest_p36/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.26.6) or chardet (3.0.4) doesn't match a supported version!
   RequestsDependencyWarning)
-[I 19:22:15.146 NotebookApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/envs/pytorch_latest_p36/lib/python3.6/site-packages/jupyterlab
-[I 19:22:15.147 NotebookApp] JupyterLab application directory is /home/ubuntu/anaconda3/envs/pytorch_latest_p36/share/jupyter/lab
-[I 19:22:15.644 NotebookApp] [nb_conda] enabled
-[I 19:22:15.645 NotebookApp] Serving notebooks from local directory: /home/ubuntu/w266_final_project
-[I 19:22:15.645 NotebookApp] The Jupyter Notebook is running at:
-[I 19:22:15.645 NotebookApp] http://ip-172-31-2-143:8888/?token=a58c69098b4a55f7e6e4852b70940e20701c3c03270c0ec5
-[I 19:22:15.645 NotebookApp]  or http://127.0.0.1:8888/?token=a58c69098b4a55f7e6e4852b70940e20701c3c03270c0ec5
-[I 19:22:15.645 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[C 19:22:15.650 NotebookApp] 
+[I 19:47:20.149 NotebookApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/envs/pytorch_latest_p36/lib/python3.6/site-packages/jupyterlab
+[I 19:47:20.149 NotebookApp] JupyterLab application directory is /home/ubuntu/anaconda3/envs/pytorch_latest_p36/share/jupyter/lab
+[I 19:47:20.682 NotebookApp] [nb_conda] enabled
+[I 19:47:20.682 NotebookApp] Serving notebooks from local directory: /home/ubuntu/w266_final_project
+[I 19:47:20.682 NotebookApp] The Jupyter Notebook is running at:
+[I 19:47:20.682 NotebookApp] http://ip-172-31-2-143:8888/?token=71339bb1076f46ff69ca002cb79d853ea6da468efcb00239
+[I 19:47:20.682 NotebookApp]  or http://127.0.0.1:8888/?token=71339bb1076f46ff69ca002cb79d853ea6da468efcb00239
+[I 19:47:20.682 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 19:47:20.689 NotebookApp] 
     
     To access the notebook, open this file in a browser:
-        file:///home/ubuntu/.local/share/jupyter/runtime/nbserver-2052-open.html
+        file:///home/ubuntu/.local/share/jupyter/runtime/nbserver-2648-open.html
     Or copy and paste one of these URLs:
-        http://ip-172-31-2-143:8888/?token=a58c69098b4a55f7e6e4852b70940e20701c3c03270c0ec5
-     or http://127.0.0.1:8888/?token=a58c69098b4a55f7e6e4852b70940e20701c3c03270c0ec5
-[I 19:22:15.651 NotebookApp] Starting initial scan of virtual environments...
-[I 19:22:19.814 NotebookApp] Found new kernels in environments: conda_chainer_p27, conda_aws_neuron_mxnet_p36, conda_anaconda3, conda_tensorflow_p36, conda_tensorflow2_latest_p37, conda_tensorflow_p27, conda_chainer_p36, conda_pytorch_p36, conda_aws_neuron_pytorch_p36, conda_pytorch_latest_p36, conda_tensorflow2_p36, conda_mxnet_p36, conda_tensorflow2_p27, conda_python2, conda_aws_neuron_tensorflow_p36, conda_mxnet_p27, conda_pytorch_p27, conda_python3
-[I 19:22:38.906 NotebookApp] 302 GET /?token=a58c69098b4a55f7e6e4852b70940e20701c3c03270c0ec5 (198.54.105.27) 1.09ms
-[W 19:22:58.955 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 19:23:00.618 NotebookApp] Kernel started: 188c3a8b-9254-4ade-9881-bbfb23803230
-[I 19:24:28.243 NotebookApp] Saving file at /model.py
-[I 19:25:00.846 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 19:25:00.847 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 19:27:01.242 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 19:27:01.243 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 19:28:05.027 NotebookApp] 302 GET / (167.248.133.39) 0.69ms
-[I 19:28:05.071 NotebookApp] 302 GET / (167.248.133.39) 0.36ms
-[I 19:28:05.110 NotebookApp] 302 GET /tree (167.248.133.39) 0.64ms
-[I 19:31:00.842 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 19:31:00.843 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 19:33:01.283 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 19:33:01.284 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 19:37:01.148 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 19:37:01.149 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 19:39:00.869 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 19:39:00.870 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 19:40:06.714 NotebookApp] Saving file at /model.py
-[I 19:40:12.355 NotebookApp] Starting buffering for 188c3a8b-9254-4ade-9881-bbfb23803230:c6c985b5703d41d6848874fb66366f20
-[I 19:40:12.965 NotebookApp] Kernel restarted: 188c3a8b-9254-4ade-9881-bbfb23803230
-[I 19:40:13.674 NotebookApp] Restoring connection for 188c3a8b-9254-4ade-9881-bbfb23803230:c6c985b5703d41d6848874fb66366f20
-[I 19:40:13.674 NotebookApp] Replaying 6 buffered messages
-[I 19:40:27.221 NotebookApp] Starting buffering for 188c3a8b-9254-4ade-9881-bbfb23803230:c6c985b5703d41d6848874fb66366f20
-[I 19:40:27.431 NotebookApp] Kernel restarted: 188c3a8b-9254-4ade-9881-bbfb23803230
-[I 19:40:28.239 NotebookApp] Restoring connection for 188c3a8b-9254-4ade-9881-bbfb23803230:c6c985b5703d41d6848874fb66366f20
-[I 19:40:28.239 NotebookApp] Replaying 3 buffered messages
-[I 19:41:00.855 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 19:41:00.856 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 19:42:04.710 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 19:42:04.711 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 19:42:57.759 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 19:42:57.760 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 19:45:01.514 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 19:45:01.515 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 19:47:00.910 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 19:47:00.911 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 19:47:58.315 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 19:47:58.316 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 19:49:01.703 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 19:49:01.703 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 19:51:01.385 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 19:51:01.386 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 19:53:01.555 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 19:53:01.556 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 19:55:01.077 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 19:55:01.078 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 19:57:00.908 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 19:57:00.909 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 19:59:00.899 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 19:59:00.900 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:01:01.929 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:01:01.930 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:03:00.911 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:03:00.912 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:05:00.924 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:05:00.925 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:07:00.918 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:07:00.919 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:09:00.937 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:09:00.938 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:11:00.931 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:11:00.932 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:13:00.955 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:13:00.956 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:15:00.957 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:15:00.958 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:17:01.561 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:17:01.562 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:21:00.984 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:21:00.985 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:23:00.988 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:23:00.989 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:25:00.974 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:25:00.974 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:27:00.989 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:27:00.990 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:29:01.949 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:29:01.950 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:31:02.031 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:31:02.032 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:33:01.619 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:33:01.621 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:35:02.977 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:35:02.978 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:37:02.709 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:37:02.710 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:39:01.346 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:39:01.347 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:41:01.726 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:41:01.727 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:43:02.058 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:43:02.059 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:45:01.748 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:45:01.749 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:47:02.426 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:47:02.427 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:49:01.038 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:49:01.039 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:51:01.824 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:51:01.825 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:53:01.567 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:53:01.569 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:55:01.933 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:55:01.934 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:57:01.803 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:57:01.805 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 20:59:01.574 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 20:59:01.575 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:01:02.625 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:01:02.626 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:03:01.610 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:03:01.611 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:05:01.129 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:05:01.130 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:07:01.608 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:07:01.609 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:09:01.543 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:09:01.544 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:11:02.246 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:11:02.247 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:13:01.571 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:13:01.572 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:15:01.970 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:15:01.971 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:17:01.560 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:17:01.561 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:19:01.182 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:19:01.183 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:21:01.194 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:21:01.195 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:23:01.662 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:23:01.663 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:25:01.896 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:25:01.897 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:27:01.226 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:27:01.227 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:29:01.280 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:29:01.281 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:31:02.147 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:31:02.148 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:33:01.856 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:33:01.857 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:35:01.305 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:35:01.306 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:37:01.820 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:37:01.821 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:39:01.767 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:39:01.768 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:40:31.685 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:40:31.686 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:40:34.783 NotebookApp] Starting buffering for 188c3a8b-9254-4ade-9881-bbfb23803230:c6c985b5703d41d6848874fb66366f20
-[W 21:40:43.103 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:41:29.432 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:41:29.433 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:44:47.892 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:44:47.894 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:46:47.722 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:46:47.723 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:48:47.759 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:48:47.760 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:50:46.814 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:50:46.815 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:52:48.137 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:52:48.138 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:53:14.147 NotebookApp] 302 GET / (89.248.174.3) 0.68ms
-[I 21:54:47.764 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:54:47.765 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:56:47.946 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:56:47.947 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 21:58:46.843 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 21:58:46.845 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 22:00:48.191 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 22:00:48.193 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 22:02:46.949 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 22:02:46.991 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 22:04:48.029 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 22:04:48.032 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 22:06:47.988 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 22:06:47.990 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 22:08:47.820 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 22:08:47.821 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
-[I 22:10:43.386 NotebookApp] Saving file at /Test_frozen_bert.ipynb
-[W 22:10:43.388 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+        http://ip-172-31-2-143:8888/?token=71339bb1076f46ff69ca002cb79d853ea6da468efcb00239
+     or http://127.0.0.1:8888/?token=71339bb1076f46ff69ca002cb79d853ea6da468efcb00239
+[I 19:47:20.689 NotebookApp] Starting initial scan of virtual environments...
+[I 19:47:24.882 NotebookApp] Found new kernels in environments: conda_aws_neuron_mxnet_p36, conda_chainer_p36, conda_mxnet_p27, conda_mxnet_p36, conda_pytorch_p36, conda_chainer_p27, conda_python2, conda_tensorflow_p36, conda_tensorflow2_p27, conda_pytorch_p27, conda_aws_neuron_pytorch_p36, conda_python3, conda_tensorflow2_p36, conda_tensorflow_p27, conda_pytorch_latest_p36, conda_aws_neuron_tensorflow_p36, conda_tensorflow2_latest_p37, conda_anaconda3
+[I 19:47:48.959 NotebookApp] 302 GET /?token=71339bb1076f46ff69ca002cb79d853ea6da468efcb00239 (198.54.105.27) 1.06ms
+[W 19:47:59.497 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 19:48:02.510 NotebookApp] Kernel started: 51ca9037-e2b8-458e-a3ee-058db5218cd6
+[I 19:55:00.335 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 19:55:00.336 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 19:57:56.553 NotebookApp] Saving file at /model.py
+[I 19:58:14.858 NotebookApp] Starting buffering for 51ca9037-e2b8-458e-a3ee-058db5218cd6:a2781566212447a98d3bea478bca0c89
+[W 19:58:15.261 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:00:21.426 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:00:21.428 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:01:49.318 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:01:49.320 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:01:51.533 NotebookApp] Starting buffering for 51ca9037-e2b8-458e-a3ee-058db5218cd6:a2dedea7fc4d49e49c8940143d1f0c7d
+[I 20:01:52.242 NotebookApp] Kernel restarted: 51ca9037-e2b8-458e-a3ee-058db5218cd6
+[I 20:01:52.943 NotebookApp] Restoring connection for 51ca9037-e2b8-458e-a3ee-058db5218cd6:a2dedea7fc4d49e49c8940143d1f0c7d
+[I 20:01:52.943 NotebookApp] Replaying 6 buffered messages
+[I 20:04:18.944 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:04:18.946 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:05:32.186 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:05:32.188 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:06:18.941 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:06:18.942 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:07:23.379 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:07:23.380 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:08:18.906 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:08:18.907 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:08:49.359 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:08:49.360 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:09:05.891 NotebookApp] Starting buffering for 51ca9037-e2b8-458e-a3ee-058db5218cd6:a2dedea7fc4d49e49c8940143d1f0c7d
+[I 20:09:06.501 NotebookApp] Kernel restarted: 51ca9037-e2b8-458e-a3ee-058db5218cd6
+[I 20:09:07.122 NotebookApp] Restoring connection for 51ca9037-e2b8-458e-a3ee-058db5218cd6:a2dedea7fc4d49e49c8940143d1f0c7d
+[I 20:09:07.122 NotebookApp] Replaying 3 buffered messages
+[I 20:09:09.378 NotebookApp] Saving file at /model.py
+[I 20:10:18.900 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:10:18.902 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:12:18.916 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:12:18.918 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:14:21.284 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:14:21.286 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:16:18.931 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:16:18.932 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:18:18.914 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:18:18.916 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:18:32.361 NotebookApp] Kernel interrupted: 51ca9037-e2b8-458e-a3ee-058db5218cd6
+[I 20:20:18.913 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:20:18.916 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:22:18.906 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:22:18.907 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:24:19.960 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:24:19.961 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:26:18.920 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:26:18.921 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:28:18.928 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:28:18.930 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:30:18.941 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:30:18.943 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:32:18.960 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:32:18.961 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:34:18.977 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:34:18.978 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:36:20.956 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:36:20.958 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:38:26.081 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:38:26.082 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:40:29.623 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:40:29.625 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:42:21.615 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:42:21.617 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:44:21.485 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:44:21.487 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:46:21.145 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:46:21.146 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:48:26.197 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:48:26.199 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:50:23.876 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:50:23.877 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:52:23.404 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:52:23.406 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:54:22.462 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:54:22.463 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:56:24.650 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:56:24.652 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 20:58:21.684 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 20:58:21.685 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:00:21.182 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:00:21.184 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:02:21.191 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:02:21.192 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:04:21.971 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:04:21.972 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:06:22.134 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:06:22.136 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:08:21.492 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:08:21.494 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:10:20.666 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:10:20.667 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:12:20.120 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:12:20.123 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:14:22.080 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:14:22.081 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:16:22.725 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:16:22.726 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:18:21.742 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:18:21.744 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:20:21.227 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:20:21.229 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:22:21.755 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:22:21.756 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:24:20.549 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:24:20.551 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:26:21.243 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:26:21.245 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:28:22.942 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:28:22.944 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:30:22.385 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:30:22.387 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:32:21.564 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:32:21.566 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:34:21.920 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:34:21.922 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:36:22.782 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:36:22.784 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:38:21.225 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:38:21.228 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:40:20.874 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:40:20.875 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:42:21.605 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:42:21.607 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:44:21.613 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:44:21.615 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:46:21.541 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:46:21.543 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:48:19.549 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:48:19.551 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:50:21.202 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:50:21.204 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:52:20.675 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:52:20.677 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:54:21.702 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:54:21.704 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:56:21.245 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:56:21.246 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 21:58:20.330 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 21:58:20.332 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:00:20.013 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:00:20.015 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:02:13.750 NotebookApp] 302 GET / (162.142.125.39) 0.54ms
+[I 22:02:13.786 NotebookApp] 302 GET / (162.142.125.39) 0.45ms
+[I 22:02:13.858 NotebookApp] 302 GET /tree (162.142.125.39) 0.61ms
+[I 22:02:21.205 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:02:21.208 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:04:19.865 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:04:19.866 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:06:21.297 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:06:21.299 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:08:21.239 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:08:21.241 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:10:20.077 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:10:20.079 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:12:20.718 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:12:20.720 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:14:21.247 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:14:21.249 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:16:19.750 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:16:19.752 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:18:19.837 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:18:19.839 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:20:21.213 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:20:21.215 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:22:20.668 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:22:20.670 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:24:20.352 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:24:20.354 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:26:21.593 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:26:21.595 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:28:21.590 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:28:21.591 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:30:21.919 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:30:21.921 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:32:22.068 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:32:22.070 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:34:20.630 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:34:20.632 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:36:21.034 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:36:21.036 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:38:21.302 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:38:21.304 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:40:19.805 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:40:19.807 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:42:20.372 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:42:20.374 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:44:21.217 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:44:21.220 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:46:19.662 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:46:19.664 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:48:22.404 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:48:22.406 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:50:23.468 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:50:23.470 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:52:21.619 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:52:21.621 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:53:37.429 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:53:37.431 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:54:20.627 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:54:20.629 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:56:23.663 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:56:23.666 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 22:58:21.545 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 22:58:21.547 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 23:00:21.905 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 23:00:21.907 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 23:02:24.377 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 23:02:24.380 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 23:04:20.185 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 23:04:20.187 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 23:06:21.029 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 23:06:21.032 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 23:08:21.708 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 23:08:21.710 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 23:10:19.508 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 23:10:19.510 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 23:12:20.267 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 23:12:20.269 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 23:14:22.753 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 23:14:22.755 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 23:16:20.313 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 23:16:20.315 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 23:18:19.880 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 23:18:19.882 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 23:20:21.229 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 23:20:21.231 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 23:22:20.285 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 23:22:20.287 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 23:24:19.635 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 23:24:19.638 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 23:26:21.183 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 23:26:21.185 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 23:28:19.797 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 23:28:19.800 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 23:30:19.650 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 23:30:19.653 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 23:32:21.235 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 23:32:21.238 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 23:34:20.856 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 23:34:20.858 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 23:36:19.710 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 23:36:19.749 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 23:38:22.675 NotebookApp] Saving file at /Test_frozen_bert.ipynb
+[W 23:38:22.677 NotebookApp] Notebook Test_frozen_bert.ipynb is not trusted
+[I 23:38:41.168 NotebookApp] Starting buffering for 51ca9037-e2b8-458e-a3ee-058db5218cd6:a2dedea7fc4d49e49c8940143d1f0c7d
