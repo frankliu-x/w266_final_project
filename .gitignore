@@ -4,4 +4,6 @@ glove/*
 test/*
 nohup_log.out
 .ipynb_checkpoints
+.ipynb_checkpoints/*
 __pycache__/*
+nohup_log.out
