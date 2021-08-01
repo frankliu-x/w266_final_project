@@ -249,11 +249,10 @@ class Pure_Bert(nn.Module):
         
         layers = [nn.Linear(
             config.hidden_size, hidden_size), nn.ReLU(), nn.Linear(hidden_size, args.num_classes)]
-        #end 
-        '''
+        #end'''
+      
         
-        
-   
+       
      
         
         #Part for Hidden Layer1+Layer2
@@ -296,10 +295,9 @@ class Pure_Bert(nn.Module):
         '''#Part for Hidden Layer1
         # start 
         pooled_output = outputs[2][self.layer_num][:,0, :]
-        # end
-        '''
+        # end'''
         
-       
+        
         
         
         #Part for Hidden Layer1+Layer2

@@ -13,6 +13,7 @@ from tqdm import tqdm, trange
 from datasets import my_collate, my_collate_elmo, my_collate_pure_bert, my_collate_bert
 from transformers import AdamW
 from transformers import BertTokenizer
+from sklearn.metrics import confusion_matrix
 
 logger = logging.getLogger(__name__)
 
@@ -166,8 +167,10 @@ def train(args, train_dataset, model, test_dataset):
                     results, eval_loss = evaluate(args, test_dataset, model)
                     all_eval_results.append(results)
                     for key, value in results.items():
-                        tb_writer.add_scalar(
+                        tb_writer.add_text(
                             'eval_{}'.format(key), value, global_step)
+#                         tb_writer.add_scalar(
+#                             'eval_{}'.format(key), value, global_step)
                     tb_writer.add_scalar('eval_loss', eval_loss, global_step)
                     # tb_writer.add_scalar('lr', scheduler.get_lr()[0], global_step)
                     tb_writer.add_scalar(
@@ -299,8 +302,9 @@ def acc_and_f1(preds, labels):
     acc = simple_accuracy(preds, labels)
     f1 = f1_score(y_true=labels, y_pred=preds, average='macro')
     return {
-        "acc": acc,
-        "f1": f1
+        "acc": str(acc),
+        "f1": str(f1),
+        "confusion_matrix": np.array2string(confusion_matrix(labels, preds))
     }
 
 
